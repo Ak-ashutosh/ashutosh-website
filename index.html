@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashutosh Website</title>
+    <link rel="icon" href="images/logo.png" type="circle">
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo"><span><img id="ak" src="images/logo.png"></span> Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Ashutosh Konewadkar</h1>
+            <p>
+                I'm a web developer who loves to create beautiful and functional websites
+                for people who want to make a difference in the world.
+            </p>
+            <p>Currently I'm a student of The Jump Digital School, where I'm learning how to
+                create beautiful and functional websites using HTML, CSS, JavaScript, PYTHON and SQL.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/Ak-ashutosh/"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/home/"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.naukri.com/mnjuser/homepage"><i class="fa-solid fa-address-card"></i></a>
+                <a href="https://www.linkedin.com/in/ashutosh-konewadkar-980a8b1b2/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1xvlJ_ixbaJTwuCHG2NlTJZFMppy3VAJC/view?usp=drive_link"
+                class="btn">Download CV</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Computer Engineer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>Software Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class="fa-brands fa-dev"></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website!  I'm Ashutosh,
+                a passionate Computer Engineer who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>
+                This website is my personal blog where I write about IT related
+                topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my blog posts and
+                found
+                them useful and informative. If you want to know more about my posts, please
+                visit my github Profile
+                where I send
+                weekly
+                updates on my projects. If you have any feedback or
+                suggestions, please let me know. I'd love to hear from you.
+            </p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Web development intertwines HTML's structure, CSS's design finesse, and JavaScript's dynamic
+                    capabilities, enabling professionals to build engaging, responsive websites essential for business and personal
+                    success online in web development.</p>
+                <a href="https://en.wikipedia.org/wiki/Web_development" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python Programming</h3>
+                <p>Python, a versatile programming language, empowers professionals with its simplicity and readability.
+                    Its extensive libraries and broad applications streamline development across industries, from data
+                    analysis to web development</p>
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-terminal"></i>
+                <h3>SQL Development</h3>
+                <p>SQL (Structured Query Language) facilitates efficient data management, retrieval, and manipulation
+                    within databases. Crucial for professionals, it ensures organized, secure, and rapid access to
+                    valuable information for decision-making.</p>
+                <a href="https://en.wikipedia.org/wiki/Oracle_SQL_Developer" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Recommendation system</h4>
+                    <p>Analyzes preferences to suggest personalized films, enhancing entertainment discovery
+                        effortlessly.</p>
+                    <a href="https://github.com/Ak-ashutosh/MRS/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Website Portfolio</h4>
+                    <p>Showcases skills, projects, and achievements for professional online presence and networking.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Birthday Notification</h4>
+                    <p>Develop a web system to notify users of upcoming birthdays with personalized reminders and
+                        options.</p>
+                    <a href="https://github.com/Ak-ashutosh/Birthday-Notification"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading">Inspirational <span>Figures</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.jpg" alt="">
+                        <h3>Ratan Tata</h3>
+                        <p>Ratan Tata, an industrialist and visionary, catalyzed India's tech evolution. His leadership
+                            at Tata Group fostered innovation and investments in digital ventures, shaping India's IT
+                            landscape. Through strategic initiatives and support for startups, he played a pivotal role
+                            in the nation's technological growth and digital empowerment.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Tim Berners-Lee</h3>
+                        <p>Tim Berners-Lee, a trailblazer in web development, invented the World Wide Web in 1989. His
+                            groundbreaking creation facilitated global information sharing through the internet,
+                            revolutionizing communication and accessibility. Berners-Lee's vision emphasized an open,
+                            decentralized platform, laying the foundation for the modern internet we rely on today.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Elon Musk</h3>
+                        <p>Elon Musk, a tech innovator and entrepreneur, revolutionized multiple industries. Through
+                            Tesla, SpaceX, and ventures like Neuralink and SolarCity, he reshaped electric vehicles,
+                            space exploration, and sustainable energy. Musk's relentless pursuit of ambitious goals and
+                            disruptive innovations defines him as a trailblazer in the IT industry.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy Ashutosh Konewadkar | All Rights Reserved.</p>
+        </div>
+        <div class="social-media">
+            <a href="https://github.com/Ak-ashutosh/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/home/"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.naukri.com/mnjuser/homepage"><i class="fa-solid fa-address-card"></i></a>
+            <a href="https://www.linkedin.com/in/ashutosh-konewadkar-980a8b1b2/"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
